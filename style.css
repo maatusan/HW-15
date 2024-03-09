@@ -6,20 +6,38 @@ body {
 .holder {
     display: flex;
 flex-wrap: wrap;
-    background-color: lightgray;
     width: 250px;
     margin: 50px auto;
-    padding: 20px;
+    border: solid 1px black;
+   
+  
+    
+   
 }
 
 .item {
     height: 50px;
     font-size: 20px;
-}
+text-align: center;
 
+
+
+       
+   
+}
+#block1{
+    border-top-left-radius: 12px;
+    background-color: red;
+    
+}
+#block5{
+    border-top-right-radius: 12px;
+    background-color: yellow;
+   
+}
 #block1,
 #block5 {
-    background-color: red;
+  
     min-width: 50%;
     flex-grow: 2;
     order: -1;
@@ -38,7 +56,7 @@ flex-wrap: wrap;
 }
 
 #block4 {
-    background-color: yellow;
+    background-color: blue;
     min-width: 33.3%;
     order: 3;
 }
