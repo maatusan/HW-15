@@ -9,9 +9,7 @@ flex-wrap: wrap;
     gap: 5px;
     background-color: lightgray;
     width: 250px;
- 
     margin: 50px auto;
-
     padding: 20px;
 }
 
@@ -35,15 +33,15 @@ flex-wrap: wrap;
 
 #block2 {
     background-color: orange;
-
+    max-width: 33.3%;
 }
 
 #block3 {
     background-color: green;
-  
+    max-width: 33.3%;
 }
 
 #block4 {
     background-color: yellow;
-
+    max-width: 33.3%;
 }
