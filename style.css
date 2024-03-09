@@ -34,14 +34,17 @@ flex-wrap: wrap;
 #block2 {
     background-color: orange;
     max-width: 33.3%;
+    order: 3;
 }
 
 #block3 {
     background-color: green;
     max-width: 33.3%;
+    order: 1;
 }
 
 #block4 {
     background-color: yellow;
     max-width: 33.3%;
+    order: 3;
 }
