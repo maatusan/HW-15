@@ -28,7 +28,9 @@ body {
 #block1,
 #block5 {
     background-color: red;
-    grid-row: 1;
+    min-width: 50%;
+    flex-grow: 2;
+    order: -1;
 }
 
 #block2 {
